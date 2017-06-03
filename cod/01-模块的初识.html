@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>01-模块的初识</title>
+</head>
+<body>
+    <script src="require.js"></script>
+    <script>
+        // 推崇一个文件一个模块
+        // 引入模块
+        // 在requirejs中，有全局函数require用来加载模块的
+        require( ['./myModule'], function(){
+            console.log( 2 );
+        } );
+    </script>
+</body>
+</html>
